@@ -1,0 +1,20 @@
+.question{
+    font-weight: 400;
+    border-radius: 12px;
+    background-color: #e3e3e3;
+    padding: 9px 12px;
+    margin: 7px 0;
+    cursor: pointer;
+    transition: 0.35s ease-in-out;
+}
+.question:hover{
+    background-color: #d5d5d5;
+}
+.answer{
+    color: #0956e5;
+    margin: 0;
+    padding: 9px;
+}
+.answer::before{
+    content: "• ";
+}

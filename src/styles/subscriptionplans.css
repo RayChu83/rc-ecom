@@ -1,0 +1,58 @@
+#plans{
+    /* even out space, already has default padding on the bottom by the main tag */
+    margin: 30px auto 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.plan{
+    width: 33%;
+    background-color: white;
+    border-radius: 12px;
+    border: 4.75px solid;
+    text-align: center;
+    transition: 0.35s ease-in-out;
+    margin: auto;
+}
+.plan:hover{
+    filter: drop-shadow(0px 2px 12px #a6b6d4);
+    width: 50%;
+}
+.starter{
+    border-color: #0956e557 !important;
+}
+.associates{
+    border-color: #0956e58e !important;
+}
+.senior{
+    border-color: #0956e5c0 !important;
+}
+.plan h3{
+    font-weight: 500;
+}
+.plan-details{
+    width: 80%;
+    margin: auto;
+    max-height: 60px;
+    overflow: auto;
+}
+.purchase-plan{
+    color: white;
+    background: #0955e5;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: 600;
+    filter: none !important;
+}
+@media screen and (max-width: 1300px) {
+    #plans{
+        flex-direction: column;
+    }
+    .plan{
+        width: 100% !important;
+    }
+}

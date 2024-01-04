@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    font-family: Inter;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    min-height: 50vh;
+    padding: 40px 5%;
+}
+.heading{
+    font-weight: 600;
+    color: black;
+}
+.classical-cta{
+    width: 100%;
+    font-size: 1em;
+    background-color: #0955e5;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+.classical-cta:hover{
+    background-color: #0749c2;
+}
+.understated-text{
+    font-size: .7em !important;
+    font-weight: normal;
+}

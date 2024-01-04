@@ -1,0 +1,33 @@
+.loading-container{
+    background-image: url(https://forum.keyboardmaestro.com/uploads/default/original/3X/2/d/2d2fc0f947940f98c21afafef39ecf226a2e8d55.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    margin: 50px auto;
+}
+#subscription-detail-page{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    margin: auto;
+    max-width: 1300px;
+}
+#detailed-plan{
+    text-align: center;
+    margin: auto;
+    border-radius: 12px;
+    padding: 15px;
+    border: 4.75px solid;
+}
+#detailed-plan h3{
+    font-weight: 500;
+}
+#stripe-payment{
+    background-color: rgb(228, 228, 228);
+    padding: 15px;
+    border-radius: 12px;
+}
+#table-plan-name{
+    font-weight: 600;
+}

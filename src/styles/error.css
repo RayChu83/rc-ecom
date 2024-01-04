@@ -1,0 +1,10 @@
+#error-page{
+    text-align: center;
+}
+#error-page h2{
+    font-weight: 400;
+    color: red;
+}
+.dark-bg{
+    background-color: #1f1f1f !important;
+}

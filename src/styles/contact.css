@@ -1,0 +1,49 @@
+#contact-page{
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+}
+#contact-section{
+    width: 35%;
+}
+#faqs-section{
+    width: 65%;
+    border-radius: 12px;
+}
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+#contact-form textarea{
+    max-width: 100%;
+}
+#contact-form textarea, #contact-form input{
+    font-size: 1em;
+    background-color: #e3e3e3;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+    outline-color: #0956e575;
+}
+#contact-form textarea::placeholder, #contact-form input::placeholder{
+    color: black;
+    font-weight: 500;
+    opacity: .5;
+}
+.form-cta{
+    outline: none;
+    border: none;
+}
+@media (max-width: 925px) {
+    #contact-page{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #contact-section{
+        width: 100%;
+    }
+    #faqs-section{
+        width: 100%;
+    }
+}

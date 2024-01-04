@@ -1,0 +1,36 @@
+nav{
+    display: flex;
+    padding: 30px 5%;
+    align-items: center;
+    background: #1f1f1f;
+    position: fixed;
+    width: 100%;
+    /* below allows no component to overlap with the navigation bar */
+    z-index: 1;
+}
+#nav-links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+#nav-logo{
+    margin-right: auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #c8c8c8;
+    padding: 0;
+}
+.nav-link{
+    color: #848484;
+    font-weight: 600;
+    padding: 6px 9px;
+    border-radius: 2px;
+}
+#nav-links .nav-link:hover{
+    background-color: rgba(255, 255, 255, 0.111);
+}
+@media (max-width: 700px) {
+    #nav-links{
+        display: none;
+    }
+}
