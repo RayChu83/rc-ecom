@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rc-ecom/static/css/main.0819d3a2.css",
+    "main.js": "/rc-ecom/static/js/main.24541d6b.js",
+    "static/js/787.f3c2085e.chunk.js": "/rc-ecom/static/js/787.f3c2085e.chunk.js",
+    "static/media/wave.svg": "/rc-ecom/static/media/wave.4b7793c908971742deb5.svg",
+    "index.html": "/rc-ecom/index.html",
+    "main.0819d3a2.css.map": "/rc-ecom/static/css/main.0819d3a2.css.map",
+    "main.24541d6b.js.map": "/rc-ecom/static/js/main.24541d6b.js.map",
+    "787.f3c2085e.chunk.js.map": "/rc-ecom/static/js/787.f3c2085e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0819d3a2.css",
+    "static/js/main.24541d6b.js"
+  ]
+}
